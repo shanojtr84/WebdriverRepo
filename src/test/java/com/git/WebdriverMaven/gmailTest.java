@@ -17,7 +17,7 @@ public class gmailTest {
 		
 		driver.navigate().to("http://www.google.com");
 		driver.findElement(By.xpath("//a[contains(text(),'Gmail')]")).click();
-		//driver.navigate().back();
+		driver.navigate().back();
 		//driver.navigate().forward();
 		
 		
