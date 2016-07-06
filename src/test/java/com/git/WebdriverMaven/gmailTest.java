@@ -16,9 +16,9 @@ public class gmailTest {
         WebDriver driver = new FirefoxDriver();
 		
 		driver.navigate().to("http://www.google.com");
-		driver.findElement(By.xpath("//a[contains(text(),'Gmail')]")).click();
-		driver.navigate().back();
-		driver.navigate().forward();
+		//driver.findElement(By.xpath("//a[contains(text(),'Gmail')]")).click();
+		//driver.navigate().back();
+		//driver.navigate().forward();
 		
 		
 		
